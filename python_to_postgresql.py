@@ -1,4 +1,5 @@
 import psycopg2 #FoxAnalytics
+import pandas as pd
 
 hostname = 'localhost'
 database = 'DataBrains'
