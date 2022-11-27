@@ -1,6 +1,7 @@
 import psycopg2 #FoxAnalytics
 import pandas as pd
 
+
 hostname = 'localhost'
 database = 'DataBrains'
 username = 'postgres'
@@ -12,7 +13,7 @@ cur = None
 
 try:
     conn = psycopg2.connect(
-                host = hostname,
+                host = hostname, #comment
                 dbname = database,
                 user = username,
                 password = pwd,
@@ -48,4 +49,6 @@ finally:
         cur.close()
     if conn is not None:
         conn.close()
+
+
 
