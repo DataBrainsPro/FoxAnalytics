@@ -1,4 +1,4 @@
-import psycopg2 #import connection driver #change
+import psycopg2 #FoxAnalytics
 
 hostname = 'localhost'
 database = 'DataBrains'
